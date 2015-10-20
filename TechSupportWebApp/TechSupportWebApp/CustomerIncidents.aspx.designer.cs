@@ -11,7 +11,7 @@ namespace TechSupportWebApp
 {
 
 
-    public partial class Default
+    public partial class CustomerIncidents
     {
 
         /// <summary>

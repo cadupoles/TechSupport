@@ -57,18 +57,83 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Default.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="AddIncident.aspx" />
+    <Content Include="AddRegistration.aspx" />
+    <Content Include="CustomerIncidents.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="Images\techsupport.jpg" />
+    <Content Include="Images\techsupport2.jpg" />
+    <Content Include="Images\techsupport3.jpg" />
+    <Content Include="ProductMaintenance.aspx" />
+    <Content Include="Styles\Styles.css" />
+    <Content Include="TechnicianMaintenance.aspx" />
+    <Content Include="UserRegistration.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Welcome.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="AddIncident.aspx.cs">
+      <DependentUpon>AddIncident.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="AddIncident.aspx.designer.cs">
+      <DependentUpon>AddIncident.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddRegistration.aspx.cs">
+      <DependentUpon>AddRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddRegistration.aspx.designer.cs">
+      <DependentUpon>AddRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Customer.cs" />
+    <Compile Include="CustomerIncidents.aspx.cs">
+      <DependentUpon>CustomerIncidents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerIncidents.aspx.designer.cs">
+      <DependentUpon>CustomerIncidents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Product.cs" />
+    <Compile Include="ProductMaintenance.aspx.cs">
+      <DependentUpon>ProductMaintenance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductMaintenance.aspx.designer.cs">
+      <DependentUpon>ProductMaintenance.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="App_Code\Registration.cs" />
+    <Compile Include="TechnicianMaintenance.aspx.cs">
+      <DependentUpon>TechnicianMaintenance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TechnicianMaintenance.aspx.designer.cs">
+      <DependentUpon>TechnicianMaintenance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserRegistration.aspx.cs">
+      <DependentUpon>UserRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserRegistration.aspx.designer.cs">
+      <DependentUpon>UserRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.aspx.cs">
+      <DependentUpon>Welcome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Welcome.aspx.designer.cs">
+      <DependentUpon>Welcome.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Web.Debug.config">
@@ -79,9 +144,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Code\" />
     <Folder Include="App_Data\" />
-    <Folder Include="Images\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
