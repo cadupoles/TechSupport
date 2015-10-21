@@ -1,0 +1,45 @@
+﻿/* Default Page Styles*/
+/*
+*
+*
+*/
+/* The styles for the elements */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 150px;
+    background-color: white;
+    border: 2px solid #808080;
+}
+
+.techsupport_img {
+
+    margin-left: 80px;
+    margin-top: 15px;
+
+}
+
+.td_right {
+
+    text-align: right;
+}
+
+.table_log {
+
+    margin: 0 auto;
+    width: 500px;
+
+}
+
+/* the styles for classes */
+
+.button {
+    width: 90px;
+    color: #FF0000;
+    margin-bottom: 30px;
+    margin-left: 142px;
+}
+
