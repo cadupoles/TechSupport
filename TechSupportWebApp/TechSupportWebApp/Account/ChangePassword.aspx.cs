@@ -11,13 +11,6 @@ namespace TechSupportWebApp.Account
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!User.Identity.IsAuthenticated )
-            {
-                Server.Transfer("~/Account/Login.aspx");
-                // Response.Redirect("~/AccessDenied.aspx");
-                return;
-
-            }
 
         }
     }
