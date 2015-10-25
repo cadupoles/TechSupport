@@ -11,7 +11,6 @@ namespace TechSupportWebApp.Account
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            //|| (!User.IsInRole("Admin") && (!User.IsInRole("Support")))
             if (!User.Identity.IsAuthenticated )
             {
                 Server.Transfer("~/Account/Login.aspx");
