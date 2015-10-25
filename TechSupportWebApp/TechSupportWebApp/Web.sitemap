@@ -6,9 +6,10 @@
     <siteMapNode url="ProductMaintenance.aspx" title="Product Maintenance" description=""  />
     <siteMapNode url="TechnicianMaintenance.aspx" title="Technician Maintenance" description="" />
     <siteMapNode url="AddRegistration.aspx" title="Add Registration" decsription=""  />
-    <siteMapNode url="AddIncident.aspx" title="Add Incident"  />  
+    <siteMapNode url="AddIncident.aspx" title="Add Incident"  /> 
     </siteMapNode>
 </siteMap>
+
       
       
  
