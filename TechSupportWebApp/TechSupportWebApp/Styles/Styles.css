@@ -56,7 +56,8 @@ table {
    border: 4px double black;
 }
 
-/*Styles for Login and Registration Page */
+/*Styles for Login, Registration, Change Password and Restore Password Pages */
+
 #ContentPlaceHolder1_Login1 {
     border-collapse: collapse;
     margin: 0 auto;
@@ -72,6 +73,23 @@ table {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+#ContentPlaceHolder1_ChangePassword {
+    border-collapse: collapse;
+    margin: 0 auto;
+    border: 2px double grey;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#ContentPlaceHolder1_PasswordRecovery1 {
+    border-collapse: collapse;
+    margin: 0 auto;
+    border: 2px double grey;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 /*End*/
 
 
