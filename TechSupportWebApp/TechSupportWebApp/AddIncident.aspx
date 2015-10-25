@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AddIncident.aspx.cs" Inherits="TechSupportWebApp.AddIncident" %>
+﻿<%@ Page Language="C#"  AutoEventWireup="true" CodeBehind="AddIncident.aspx.cs" Inherits="TechSupportWebApp.AddIncident" %>
 
 <!DOCTYPE html>
 

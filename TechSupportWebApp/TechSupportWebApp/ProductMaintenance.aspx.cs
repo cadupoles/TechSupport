@@ -11,7 +11,13 @@ namespace TechSupportWebApp
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!User.Identity.IsAuthenticated || (!User.IsInRole("Admin") && (!User.IsInRole("Support"))))
+            {
+                Server.Transfer("~/AccessDenied.aspx");
+                // Response.Redirect("~/AccessDenied.aspx");
+                return;
 
+            }
         }
     }
 }
