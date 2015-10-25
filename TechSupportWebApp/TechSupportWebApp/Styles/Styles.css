@@ -42,6 +42,7 @@ table {
     background-color: #bfcbd6;
     color: #006600;
     text-decoration: none;
+    text-decoration: underline;
 }
 .footer {
     font-size: 80%;
@@ -74,7 +75,7 @@ table {
     margin-bottom: 50px;
 }
 
-#ContentPlaceHolder1_ChangePassword {
+#ContentPlaceHolder1_ChangePassword1 {
     border-collapse: collapse;
     margin: 0 auto;
     border: 2px double grey;
@@ -89,6 +90,7 @@ table {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
 
 /*End*/
 
