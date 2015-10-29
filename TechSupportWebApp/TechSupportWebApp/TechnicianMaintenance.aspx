@@ -10,16 +10,15 @@
             width: 100%;
         }
         .auto-style2 {
-            text-align: center;
+            text-align: left;
             font-weight: bold;
-            text-decoration: underline;
-        }
+            }
         h1 {
             text-align: center;
         }
         .auto-style3 {
             height: 23px;
-            text-align: center;
+            text-align: left;
         }
         .auto-style4 {
             font-weight: normal;
@@ -27,7 +26,7 @@
         }
     </style>
 
-    <h1 class="auto-style4"><strong>Techniciam Maintenance Page</strong></h1>
+    <h1 class="auto-style4"><strong>Techniciam Maintenance</strong></h1>
 
 </head>
 
@@ -37,43 +36,27 @@
     
         <table class="auto-style1">
             <tr>
-                <td class="auto-style2">Tech ID</td>
-                <td class="auto-style2">Name</td>
-                <td class="auto-style2">E-mail</td>
-                <td class="auto-style2">Phone</td>
-            </tr>
-            <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style3" colspan="4">
-                    <asp:Button ID="btnAdd" runat="server" Text="Add" Width="100px" />
-&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Button ID="btnRemove" runat="server" Text="Remove" Width="100px" />
-&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Button ID="btnSave" runat="server" Text="Save" Width="100px" />
+                <td class="auto-style2">Tech ID:&nbsp;&nbsp;&nbsp;
+                    <asp:TextBox ID="txtSearch" runat="server" Width="76px"></asp:TextBox>
+&nbsp;&nbsp;&nbsp;
+                    <asp:Button ID="btnSearch" runat="server" Text="Search" />
                 </td>
+            </tr>
+            <tr>
+                <td class="auto-style3">
+                    Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:TextBox ID="txtName" runat="server"></asp:TextBox>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:TextBox ID="txtPhone" runat="server"></asp:TextBox>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:LinkButton ID="lbEdit" runat="server" style="color: #000000">Edit</asp:LinkButton>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style3">
+                    &nbsp;</td>
             </tr>
         </table>
     
