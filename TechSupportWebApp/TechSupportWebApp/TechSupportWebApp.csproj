@@ -69,7 +69,6 @@
     <Content Include="App_Data\ASPNETDB_log.ldf">
       <DependentUpon>ASPNETDB.MDF</DependentUpon>
     </Content>
-    <Content Include="CustomerMaintanence.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Images\techsupport1.jpg" />
     <Content Include="Images\techsupport2.jpg" />
@@ -132,13 +131,6 @@
     </Compile>
     <Compile Include="AddRegistration.aspx.designer.cs">
       <DependentUpon>AddRegistration.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="CustomerMaintanence.aspx.cs">
-      <DependentUpon>CustomerMaintanence.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="CustomerMaintanence.aspx.designer.cs">
-      <DependentUpon>CustomerMaintanence.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
