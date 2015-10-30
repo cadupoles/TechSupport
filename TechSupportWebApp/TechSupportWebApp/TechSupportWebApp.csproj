@@ -69,10 +69,12 @@
     <Content Include="App_Data\ASPNETDB_log.ldf">
       <DependentUpon>ASPNETDB.MDF</DependentUpon>
     </Content>
+    <Content Include="CustomerIncidents.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Images\techsupport1.jpg" />
     <Content Include="Images\techsupport2.jpg" />
     <Content Include="Images\techsupport3.jpg" />
+    <Content Include="ProductMaintanence.aspx" />
     <Content Include="Styles\Styles.css" />
     <Content Include="TechnicianMaintanence.aspx" />
     <Content Include="Web.config">
@@ -107,6 +109,20 @@
     </Compile>
     <Compile Include="Account\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerIncidents.aspx.cs">
+      <DependentUpon>CustomerIncidents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerIncidents.aspx.designer.cs">
+      <DependentUpon>CustomerIncidents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductMaintanence.aspx.cs">
+      <DependentUpon>ProductMaintanence.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductMaintanence.aspx.designer.cs">
+      <DependentUpon>ProductMaintanence.aspx</DependentUpon>
     </Compile>
     <Compile Include="TechnicianMaintanence.aspx.cs">
       <DependentUpon>TechnicianMaintanence.aspx</DependentUpon>
