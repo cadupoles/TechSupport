@@ -3,7 +3,7 @@
 
     <siteMapNode url="Default.aspx" title="Home" decsription="" roles="*" >
     <siteMapNode url="CustomerIncidents.aspx" title="Customer Incidents" description=""  />  
-    <siteMapNode url="ProductMaintenance.aspx" title="Product Maintenance" description=""  />
+    <siteMapNode url="ProductMaintanence.aspx" title="Product Maintenance" description=""  />
     <siteMapNode url="TechnicianMaintanence.aspx" title="Technician Maintenance" description="" />
     <siteMapNode url="AddRegistration.aspx" title="Add Registration" decsription=""  />
     <siteMapNode url="AddIncident.aspx" title="Add Incident"  /> 
