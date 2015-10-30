@@ -63,15 +63,19 @@
     <Content Include="Account\ChangePassword.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
+    <Content Include="AddIncident.aspx" />
+    <Content Include="AddRegistration.aspx" />
     <Content Include="App_Data\ASPNETDB.MDF" />
     <Content Include="App_Data\ASPNETDB_log.ldf">
       <DependentUpon>ASPNETDB.MDF</DependentUpon>
     </Content>
+    <Content Include="CustomerMaintanence.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Images\techsupport1.jpg" />
     <Content Include="Images\techsupport2.jpg" />
     <Content Include="Images\techsupport3.jpg" />
     <Content Include="Styles\Styles.css" />
+    <Content Include="TechnicianMaintanence.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -105,9 +109,37 @@
     <Compile Include="Account\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="TechnicianMaintanence.aspx.cs">
+      <DependentUpon>TechnicianMaintanence.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TechnicianMaintanence.aspx.designer.cs">
+      <DependentUpon>TechnicianMaintanence.aspx</DependentUpon>
+    </Compile>
     <Content Include="App_Code\Customer.cs" />
     <Content Include="App_Code\Registration.cs" />
     <Content Include="App_Code\Product.cs" />
+    <Compile Include="AddIncident.aspx.cs">
+      <DependentUpon>AddIncident.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddIncident.aspx.designer.cs">
+      <DependentUpon>AddIncident.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddRegistration.aspx.cs">
+      <DependentUpon>AddRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddRegistration.aspx.designer.cs">
+      <DependentUpon>AddRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerMaintanence.aspx.cs">
+      <DependentUpon>CustomerMaintanence.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerMaintanence.aspx.designer.cs">
+      <DependentUpon>CustomerMaintanence.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
